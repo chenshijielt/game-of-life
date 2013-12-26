@@ -268,7 +268,7 @@
                             <format>xml</format>
                             <!-- CPD options -->
                             <minimumTokens>20</minimumTokens>
-                            <!--<ignoreIdentifiers>true</ignoreIdentifiers>-->
+                            <ignoreIdentifiers>true</ignoreIdentifiers>
                             <failOnViolation>true</failOnViolation>
                             <failurePriority>2</failurePriority>
                         </configuration>
@@ -337,7 +337,7 @@
                                     <groupId>org.apache.maven.plugins</groupId>
                                     <artifactId>maven-checkstyle-plugin</artifactId>
                                     <version>2.9.1</version>
-                                    <!--<configuration>-->
+                                    <configuration>
                                     <configLocation>gol-checkstyle.xml</configLocation>
                                     </configuration>
                                 </plugin>
